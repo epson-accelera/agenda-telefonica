@@ -19,22 +19,51 @@ jobs:
         with:
           submodules: true
           lfs: false
+          
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '20.11.1'  # ✅ ATUALIZADO!
+          node-version: '20.11.1'
           cache: 'npm'
-          cache-dependency-path: 'Frontend/agenda-telefonica-frontend/package-lock.json'  # ✅ CORRETO
+          cache-dependency-path: 'Frontend/agenda-telefonica-frontend/package-lock.json'
       
-      - name: Install dependencies
+      - name: Clear npm cache
         run: |
-          cd Frontend/agenda-telefonica-frontend  # ✅ CORRETO
-          npm ci --legacy-peer-deps
+          cd Frontend/agenda-telefonica-frontend
+          npm cache clean --force
+      
+      - name: Install dependencies with fallback strategy
+        run: |
+          cd Frontend/agenda-telefonica-frontend
+          # Estratégia 1: Tentar npm ci com --legacy-peer-deps
+          if npm ci --legacy-peer-deps; then
+            echo "✅ npm ci com --legacy-peer-deps funcionou"
+          # Estratégia 2: Tentar npm ci com --force
+          elif npm ci --force; then
+            echo "✅ npm ci com --force funcionou"
+          # Estratégia 3: Fallback para npm install
+          else
+            echo "⚠️ npm ci falhou, usando npm install como fallback"
+            rm -rf node_modules package-lock.json
+            npm install --legacy-peer-deps
+          fi
+      
+      - name: Verify installation
+        run: |
+          cd Frontend/agenda-telefonica-frontend
+          npm list --depth=0
+          ls -la node_modules/@angular/
       
       - name: Build Angular app
         run: |
-          cd Frontend/agenda-telefonica-frontend  # ✅ CORRETO
-          npm run build
+          cd Frontend/agenda-telefonica-frontend
+          npm run build -- --configuration=production
+      
+      - name: Verify build output
+        run: |
+          cd Frontend/agenda-telefonica-frontend
+          ls -la dist/
+          ls -la dist/agenda-telefonica-frontend/
       
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@v1
@@ -43,8 +72,8 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "Frontend/agenda-telefonica-frontend"
-          output_location: "dist/agenda-telefonica-frontend/browser"  # ✅ CORREÇÃO CRÍTICA!
-          skip_app_build: true                                 # ✅ CORRETO
+          output_location: "dist/agenda-telefonica-frontend/browser"
+          skip_app_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

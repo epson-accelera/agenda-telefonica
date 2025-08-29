@@ -12,3 +12,4 @@ C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.D
 C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Debug\net8.0\AgendaTelefonica.Data.pdb
 C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Debug\net8.0\AgendaTelefonica.Data.genruntimeconfig.cache
 C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Debug\net8.0\ref\AgendaTelefonica.Data.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Debug\net8.0\AgendaTelefonica.Data.sourcelink.json
