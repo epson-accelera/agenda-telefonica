@@ -1,0 +1,8 @@
+{
+  "serverName": "agenda-telefonica-server",
+  "databaseName": "AgendaTelefonicaDB",
+  "adminLogin": "sqladmin",
+  "location": "East US",
+  "tier": "Basic",
+  "capacity": 5
+}

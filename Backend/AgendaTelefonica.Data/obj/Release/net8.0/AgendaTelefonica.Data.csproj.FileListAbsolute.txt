@@ -1,0 +1,14 @@
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\bin\Release\net8.0\AgendaTelefonica.Data.deps.json
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\bin\Release\net8.0\AgendaTelefonica.Data.runtimeconfig.json
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\bin\Release\net8.0\AgendaTelefonica.Data.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\bin\Release\net8.0\AgendaTelefonica.Data.pdb
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.csproj.AssemblyReference.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.AssemblyInfoInputs.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.AssemblyInfo.cs
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.csproj.CoreCompileInputs.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\refint\AgendaTelefonica.Data.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.pdb
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\AgendaTelefonica.Data.genruntimeconfig.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Data\obj\Release\net8.0\ref\AgendaTelefonica.Data.dll

@@ -1,0 +1,15 @@
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\bin\Release\net8.0\AgendaTelefonica.Services.deps.json
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\bin\Release\net8.0\AgendaTelefonica.Services.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\bin\Release\net8.0\AgendaTelefonica.Services.pdb
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\bin\Release\net8.0\AgendaTelefonica.Data.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\bin\Release\net8.0\AgendaTelefonica.Data.pdb
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.csproj.AssemblyReference.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.AssemblyInfoInputs.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.AssemblyInfo.cs
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.csproj.CoreCompileInputs.cache
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTe.0F335850.Up2Date
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\refint\AgendaTelefonica.Services.dll
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\AgendaTelefonica.Services.pdb
+C:\Users\epson.lopes\Documents\TRAE\agenda-telefonica\Backend\AgendaTelefonica.Services\obj\Release\net8.0\ref\AgendaTelefonica.Services.dll

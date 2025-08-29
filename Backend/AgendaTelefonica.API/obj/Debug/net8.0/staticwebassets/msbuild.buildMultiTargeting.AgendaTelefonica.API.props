@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AgendaTelefonica.API.props" />
+</Project>

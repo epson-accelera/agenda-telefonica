@@ -1,0 +1,5 @@
+{
+  "ASPNETCORE_ENVIRONMENT": "Production",
+  "WEBSITE_RUN_FROM_PACKAGE": "1",
+  "ConnectionStrings__DefaultConnection": "#{SQL_CONNECTION_STRING}#"
+}
